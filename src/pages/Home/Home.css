@@ -1,0 +1,41 @@
+body{
+    @apply bg-[#E5E5E5]
+}
+.todo{
+    @apply w-[1000px] h-[600px] bg-[#38404B] m-auto mt-6 rounded-[65px]
+}
+.todo_head h1{
+    @apply text-3xl font-bold font-poppins text-[#fff] flex justify-center items-center shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-1px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset]
+    py-7 rounded-t-[65px]
+}
+.todo_input{
+    @apply flex  gap-10 items-center 
+}
+.todo_input input{
+    @apply w-[700px] h-[90px] bg-transparent mt-10 ml-10  rounded-[30px] outline-none pl-5 text-2xl text-[#fff]
+    font-medium font-poppins   focus:border-[#1C75B8] border-[3px] border-transparent
+}
+.todo_button{
+    @apply w-[70px] h-[70px] bg-[#38404B] flex justify-center items-center rounded-2xl mt-8 active:scale-95
+    shadow-[5px_5px_0px_0px_rgba(109,40,217)] text-4xl font-bold
+}
+.todo_list{
+    @apply w-[700px] h-[80px] bg-[#38404B] mt-[30px] ml-10 rounded-xl 
+}
+.todo_list h2{
+    @apply text-2xl font-medium font-poppins text-[#94ADCF] py-6 pl-4
+}
+.todo_text{
+    @apply flex gap-4
+}
+.text_button{
+    @apply flex gap-3
+}
+.text_button .edit{
+    @apply w-[70px] h-[70px] bg-[#38404B] flex justify-center items-center rounded-2xl mt-8 active:scale-95
+     text-4xl font-bold text-[#fff] border-[2px] border-[#6D28D9]
+}
+.text_button .delete{
+    @apply w-[70px] h-[70px] bg-[#38404B] flex justify-center items-center rounded-2xl mt-8 active:scale-95
+     text-4xl font-bold text-[#fff] border-[2px] border-[#6D28D9]
+}
